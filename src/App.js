@@ -1,12 +1,13 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+
 import './App.css';
+import TopBar from './components/header/TopBar';
 
 function App() {
   return (
     <div className="App">
-   <h1 className='display-4'>Gul Ahmad</h1>
-   <h1>Gul Ahmad</h1>
+  <TopBar />
     </div>
   );
 }
