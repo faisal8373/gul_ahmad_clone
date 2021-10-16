@@ -4,7 +4,7 @@ function TopBar() {
   return (
     <div>
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
-        <div className="container-fluid row justify-content-end" >
+        <div className="container-fluid row justify-content-between" >
           {/* <a className="navbar-brand" href="#">
             Navbar
           </a> */}
@@ -29,49 +29,14 @@ function TopBar() {
               </li>
               
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  PKR
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                     AUD
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      GBP
-                    </a>
-                  </li>
-                 
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      CAD
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                     SAR
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      USD
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      AED
-                    </a>
-                  </li>
-                </ul>
+              <select className="form-select border-0" aria-label="Default select example">
+  <option selected>PKR</option>
+  <option value="1">USD</option>
+  <option value="2">AED</option>
+  <option value="3">CAD</option>
+  <option value="2">GBP</option>
+  <option value="3">SAR</option>
+</select>
               </li>
               <li className="nav-item">
                 <p className="nav-link ">FREE SHIPPING IN PAKISTAN on Orders Over PKR 2000</p>
@@ -99,49 +64,14 @@ function TopBar() {
               </li>
               
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  PKR
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                     AUD
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      GBP
-                    </a>
-                  </li>
-                 
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      CAD
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                     SAR
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      USD
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      AED
-                    </a>
-                  </li>
-                </ul>
+              <select className="form-select border-0" aria-label="Default select example">
+  <option selected>PKR</option>
+  <option value="1">USD</option>
+  <option value="2">AED</option>
+  <option value="3">CAD</option>
+  <option value="2">GBP</option>
+  <option value="3">SAR</option>
+</select>
               </li>
               <li className="nav-item">
                 <p className="nav-link ">FREE SHIPPING IN PAKISTAN on Orders Over PKR 2000</p>
