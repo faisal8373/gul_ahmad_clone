@@ -3,7 +3,7 @@ import React from "react";
 function TopBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm navbar-light bg-light">
+      <nav className="navbar navbar-expand-sm navbar-light ">
         <div className="container-fluid row justify-content-between" >
           {/* <a className="navbar-brand" href="#">
             Navbar

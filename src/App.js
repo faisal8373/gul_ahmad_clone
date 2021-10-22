@@ -5,14 +5,19 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './App.css';
 import LogoBar from './components/header/LogoBar';
 import TopBar from './components/header/TopBar';
-import Categories from './components/categories/Categories';
+import CategoriesBar from './components/categories/CategoriesBar';
+import Slider from './components/slider/Slider';
+import SingleCategory from './components/categories/SingleCategory';
 
 function App() {
   return (
     <div className="App">
   <TopBar />
   <LogoBar />
-  <Categories />
+  <CategoriesBar />
+  <Slider />
+<SingleCategory />
+ 
     </div>
   );
 }
