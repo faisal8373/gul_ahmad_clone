@@ -8,6 +8,7 @@ import TopBar from './components/header/TopBar';
 import CategoriesBar from './components/categories/CategoriesBar';
 import Slider from './components/slider/Slider';
 import SingleCategory from './components/categories/SingleCategory';
+import BlogSlider from './components/blogSlider/BlogSlider';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
   <CategoriesBar />
   <Slider />
 <SingleCategory />
- 
+<BlogSlider /> 
     </div>
   );
 }
