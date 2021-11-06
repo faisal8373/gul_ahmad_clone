@@ -9,6 +9,8 @@ import CategoriesBar from './components/categories/CategoriesBar';
 import Slider from './components/slider/Slider';
 import SingleCategory from './components/categories/SingleCategory';
 import BlogSlider from './components/blogSlider/BlogSlider';
+import RatingSlider from './components/ratings/RatingSlider';
+import Subscribe from './components/subscribe/Subscribe';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
   <Slider />
 <SingleCategory />
 <BlogSlider /> 
+<RatingSlider />
+<Subscribe />
     </div>
   );
 }
