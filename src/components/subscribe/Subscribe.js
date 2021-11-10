@@ -1,30 +1,26 @@
 import React from "react";
+import './SubscribeStyle.css';
 
 function Subscribe() {
   return (
-    <div className="row justify-content-center">
-      <div className=" row">
+    <div className="row justify-content-center ">
+      
         <h1 className="display-5">SUBSCRIBE NOW</h1>
         <p>
           Join GulAhmed and get all the latest news, trends and offers straight
           to your inbox
         </p>
-
-        <div class="input-group mb-3 col-5">
-          <span class="input-group-text bg-dark" id="basic-addon1">
-            
-          </span>
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Email"
-            aria-label="Username"
-            aria-describedby="basic-addon1"
-          />
-          <span class="input-group-text bg-dark text-white" id="basic-addon2">Subscribe</span>
-        </div>
-      </div>
-    </div>
+        
+        
+        <div className='col-3 m-0 p-0 form-border d-flex'>
+        
+        <input className="form-control " type="email" required placeholder="Enter your email" />
+        <button className="btn btn-dark p-2 " type="submit">SUBSCRIBE</button>
+     
+     </div>
+     </div>
+      
+    
   );
 }
 
