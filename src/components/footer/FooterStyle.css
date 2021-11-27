@@ -1,0 +1,10 @@
+.icon-border{
+    border: solid 2px ;
+}
+.list{
+    list-style-type: none;
+    
+}
+.text{
+    text-align: left !important;
+}

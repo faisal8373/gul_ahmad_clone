@@ -11,6 +11,7 @@ import SingleCategory from './components/categories/SingleCategory';
 import BlogSlider from './components/blogSlider/BlogSlider';
 import RatingSlider from './components/ratings/RatingSlider';
 import Subscribe from './components/subscribe/Subscribe';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 <BlogSlider /> 
 <RatingSlider />
 <Subscribe />
+<Footer />
     </div>
   );
 }

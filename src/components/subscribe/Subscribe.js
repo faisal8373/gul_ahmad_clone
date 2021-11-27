@@ -3,7 +3,7 @@ import './SubscribeStyle.css';
 
 function Subscribe() {
   return (
-    <div className="row justify-content-center ">
+    <div className="row justify-content-center bg-dark bg-opacity-10 p-3">
       
         <h1 className="display-5">SUBSCRIBE NOW</h1>
         <p>
